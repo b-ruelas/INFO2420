@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Backyard Birds of Utah - Home</title>
+
+
+<link rel="stylesheet" type="text/css" href="mystyles.css">
+
+
+<script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body onload="preloadImages()">
+
+<div id="container">
+
+  <header id="header">
+
+    <div id="brand">
+      <a href="Home.html">
+        <img id="logo" src="Images/logo1.jpg" name="logo" width="133" height="126"
+             alt="Backyard Birds of Utah Logo"
+             onmouseover="document.logo.src='Images/logo2.jpg';"
+             onmouseout="document.logo.src='Images/logo1.jpg';">
+      </a>
+      <img id="banner" src="Images/Banner.png" alt="Backyard Birds of Utah Banner">
+    </div>
+
+    <nav id="nav">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Tributes.html">Tributes</a></li>
+        <li><a href="Survey.html">Survey</a></li>
+        <li><a href="Favorites.html">Favorites</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+ 
+  <section id="section">
+
+   
+    <article id="article">
+
+      <h1>Welcome to Backyard Birds of Utah</h1>
+
+      <p>
+        Welcome to Backyard Birds of Utah!
+        If you love birdwatching like we do, you should enjoy looking around this site.
+        Take a look at our Bird Profiles and take the opportunity to complete our survey.
+      </p>
+
+      <h2>Bird Photo Gallery</h2>
+      <p class="instructions">Roll over a thumbnail below to view a larger image.</p>
+
+      <div id="thumbs">
+        <img src="Images/thumbnails/dogtrick2sm.jpg" alt="Dog Performing a Trick" onmouseover="swapImage(0);">
+        <img src="Images/thumbnails/huntingdogssm.jpg" alt="Hunting Dogs" onmouseover="swapImage(1);">
+        <img src="Images/thumbnails/hamstersm.jpg" alt="Hamster" onmouseover="swapImage(2);">
+        <img src="Images/thumbnails/birddogsm.jpg" alt="Bird Dog" onmouseover="swapImage(3);">
+      </div>
+
+      <div id="image">
+        <img id="theImage" src="Images/Fullsize/fullsize/DogTrick2Lg.jpg" alt="Dog Performing a Trick">
+        <h3 id="bottomText">Dog Performing a Trick</h3>
+      </div>
+
+      <h2>Featured Tribute</h2>
+      <div id="mini-tribute">
+        <img src="Images/BaldEagleSm.jpg" alt="Bald Eagle" class="thumbnailleft" width="200" height="144">
+        <p>
+          "I was excited to find the calendar offered by Bart Jones. I recognize some of
+          the bird varieties from my own back yard, but I was amazed to see the wide
+          variety of birds he has captured with his camera in his Eureka neighborhood."
+          &mdash; Dave Jorgensen
+          <a href="Tributes.html">more &gt;&gt;</a>
+        </p>
+      </div>
+
+    </article>
+
+  </section>
+
+
+  <footer id="footer">
+    <p><a href="mailto:webmaster@backyardbirdsofutah.com">Contact me at UVU</a></p>
+    <p>Project 7.</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
